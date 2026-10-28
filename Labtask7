@@ -1,0 +1,49 @@
+#Question 01:
+
+fruits = {"apple", "banana", "cherry", "orange", "grape"}
+print(fruits)
+
+#Question 02:
+
+numbers = [2, 4, 2, 6, 4, 8, 8]
+unique_numbers = set(numbers)
+print(unique_numbers)
+
+#Question 03:
+
+my_set = {1, 2, 3, 4, 5}
+my_set.add(10)
+my_set.remove(3)
+print(my_set)
+
+#Question 04:
+
+num_set = {10, 20, 30, 40, 50}
+user_num = int(input("Enter a number: "))
+
+if user_num in num_set:
+    print("The number exists in the set.")
+else:
+    print("The number does not exist in the set.")
+
+#Question 05:
+The length of the set is 4.
+
+Python sets cannot contain duplicate values. When you define values = {1, 2, 2, 3, 3, 3, 4}, Python automatically removes the repeating numbers. In memory, the set becomes {1, 2, 3, 4}, which contains exactly 4 elements.
+
+#Question 06:
+
+A = {1, 2, 3, 4}
+B = {3, 4, 5, 6}
+
+print("Unique elements in A and B:", A | B)
+print("Elements common to both sets:", A & B)
+
+print("A - B:", A - B)
+print("B - A:", B - A)
+
+print("Elements in either A or B, but not both:", A ^ B)
+
+• A - B starts with set A and takes away any numbers that also appear in B. This leaves only the items unique to A ({1, 2}).
+• B - A starts with set B and takes away any numbers that also appear in A. This leaves only the items unique to B ({5, 6}).
+• Since set A and set B do not share the exact same starting elements, changing the order of subtraction gives different answers.
