@@ -1,0 +1,32 @@
+#Question 01:
+
+name = input("Enter your name: ")
+print("Hello,", name)
+
+#Question 02:
+
+hours = float(input("Enter hours worked: "))
+rate = float(input("Enter hourly rate: "))
+gross_pay = hours * rate
+print("Gross pay:", gross_pay)
+
+#Question 03:
+
+celsius = float(input("Enter temperature in Celsius: "))
+fahrenheit = (celsius * 9/5) + 32
+print("Temperature in Fahrenheit:", fahrenheit)
+
+#Question 04:
+
+base = float(input("Enter the first number (base): "))
+exponent = float(input("Enter the second number (exponent): "))
+result = base ** exponent
+print("Result:", result)
+
+#Question 05:
+Output:
+age :  20
+items :  5
+age :  20.0
+items:  5.0
+
