@@ -30,3 +30,7 @@ items :  5
 age :  20.0
 items:  5.0
 
+#age (20) and item (5) start as integers (int) because they are whole numbers.
+#The float() function manually changes them into decimal numbers.
+#After The values become 20.0 and 5.0, which are floating-point numbers (float).
+
